@@ -1,0 +1,89 @@
+#Bienvenida {
+    background-image: url("mano\ humato.png");
+    background-size: contain;
+    height: 100vh;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Mynerve', cursive;
+}
+
+#Bienvenida img {
+    width: 13%;
+    border-radius: 30%;
+    padding-top: 30px;
+}
+
+#Bienvenida div {
+    display: table-cell;
+    vertical-align: middle;
+}
+#Jade{
+    font-family: 'Macondo', cursive;
+    color: rgb(41, 133, 41); 
+    font-size: 50px;
+}
+.Menú{
+    list-style:none;
+    cursor:pointer;
+    width:100%;
+    position:fixed;
+    margin-top: 40px;
+}
+.Menú li{
+    display:inline;
+    padding:25px;
+    font-size: 35px;
+    background-color: darkblue;
+    color:firebrick;
+    border-radius: 40px;
+    margin: 50px;
+    width: 20px;
+}
+.Menú li::hover{
+background-color:darkslateblue !important;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:firebrick;
+}
+#Videos{
+    background: linear-gradient(cyan,red 20%);
+    padding-top: 100px;
+}
+#Videoos{
+    background-color: gold;
+    padding: 30px;
+    border-radius: 30px;
+}
+#Biografía{
+    background: linear-gradient(red,green 80%, purple 99.9%);
+    padding-top: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+}
+#fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background:linear-gradient(purple, darkblue 2%);
+    width: 100%;
+    margin-top: 0;
+}
+#fotos img{
+    height: 900px;
+    max-width: 70%;
+    border-radius: 20px;
+    flex: 1 1 auto;
+}
