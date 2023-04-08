@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/
     ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jade la gata 😸</title>
@@ -14,12 +17,24 @@
 </head>
 
 <body>
-    <ul class="Menú">
-        <li> <a href="#Bienvenida">Inicio</a></li>
-        <li><a href="#Videos">Videos de Jade</a></li>
-        <li><a href="#Biografía">Biografía de Jade</a></li>
-        <li><a href="#fotos">Fotos de Jade</a></li>
-    </ul>
+    <nav class="navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="myNavbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li> <a href="#Bienvenida">Inicio</a></li>
+                <li><a href="#Videos">Videos de Jade</a></li>
+                <li><a href="#Biografía">Biografía de Jade</a></li>
+                <li><a href="#fotos">Fotos de Jade</a></li>
+            </ul>
+
+        </div>
+    </nav>
     <section id="Bienvenida">
         <div>
             <h1 style="font-size: 40px; padding-top: 80px;">INICIO</h1>
@@ -35,7 +50,7 @@
         <iframe width="322" height="572" src="https://www.youtube.com/embed/nFc6P2cQTSI" title="La melancolía" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="322" height="572" src="https://www.youtube.com/embed/EFj0WS34WsA" title="Que ricas caricias😺" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="322" height="572" src="https://www.youtube.com/embed/qjdP2UvQ0fo" title="Gata camina por un sofá" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <a href="https://www.youtube.com/@inticamilocaballerocastell3499" target="_blank" id="Videoos">GRACIAS POR SUBSCRIBIRSE :D (dale click en este texto)</a>
+        <a href="https://www.youtube.com/@inticamilocaballerocastell3499" class="btn btn-success" target="_blank" id="Videooos">GRACIAS POR SUBSCRIBIRSE :D (dale click en este texto)</a>
         <br>
     </section>
     <section id="Biografía">
