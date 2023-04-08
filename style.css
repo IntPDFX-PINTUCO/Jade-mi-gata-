@@ -17,6 +17,7 @@ body {
 
 #Bienvenida img {
     width: 13%;
+    min-width: 200px;
     border-radius: 30%;
     padding-top: 30px;
 }
@@ -68,8 +69,8 @@ a:visited{
 #Biografía{
     background: linear-gradient(red,green 80%, purple 99.9%);
     padding-top: 500px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 30px;
 }
 #fotos{
